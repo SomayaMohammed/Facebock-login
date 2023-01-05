@@ -1,0 +1,54 @@
+*{
+    --wbkit-box-sizing:border-box;
+    --moz-box-sizing:border-box;
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+    
+    }
+    .container{
+        background-color: #ddd;
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+    }
+    .container h1 {
+        /* #4063ad */
+        font-weight: bold;
+        color: #0743e7;
+        margin: 5px;
+        font-family:Arial, Helvetica, sans-serif;
+
+
+    }
+    .box{
+        width: 300px;
+        background-color: white;
+        padding: 10px;
+        margin: auto;
+        height: 250px;
+    }
+    .box input {
+        width: 100%;
+        padding: 5px;
+        margin: 5px;
+    }
+    .box .login {
+        color: white;
+        background-color: #0743e7;
+        border: none;
+        border-radius: 4px;
+    }
+    .box a {
+        display: block;
+        text-decoration: none;
+        margin-bottom: 30px;
+        padding-top: 5px;
+    }
+    .box button{
+        color: white;
+        padding: 5px;
+        background-color: #3fb027;
+        border: none;
+        border-radius: 4px;
+    }
